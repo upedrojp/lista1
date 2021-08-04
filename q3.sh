@@ -1,11 +1,17 @@
 #!/bin/bash
 a="$(ls ${1})"
-#${1}
-#${2}
-#${3}
-#${4}
-#${5}
-
+b="$(ls ${2})"
+c="$(ls ${3})"
+d="$(ls ${4})"
+e="$(ls ${5})"
 
 echo -e "\nPrimeiro diretório:\n"
-echo $a
+echo "$a"
+echo -e "\nSegundo diretório:\n"
+echo "$b"
+echo -e "\nTerceiro diretório:\n"
+echo "$c"
+echo -e "\nQuarto diretório:\n"
+echo "$d"
+echo -e "\nQuinto diretório:\n"
+echo "$e"
